@@ -15,7 +15,7 @@ namespace ETicaretAPI.API.Controllers
 			_productWriteRepository = productWriteRepository;
 			_productReadRepository = productReadRepository;
 		}
-
+		
 		[HttpGet]
 		public async void Get()
 		{
